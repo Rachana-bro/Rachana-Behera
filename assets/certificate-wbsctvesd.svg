@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Cinzel:wght@600;700&amp;family=Montserrat:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap');
+      
+      .bg-parchment { fill: #fdfdfd; }
+      .border-outer { fill: none; stroke: #1e3a8a; stroke-width: 6; }
+      .border-inner { fill: none; stroke: #1e3a8a; stroke-width: 2; }
+      .text-council { font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 700; fill: #1e3a8a; letter-spacing: 0.5px; }
+      .text-cursive { font-family: 'Great Vibes', cursive, 'Cinzel', serif; font-size: 68px; fill: #0f172a; text-anchor: middle; }
+      .label-text { font-family: 'Montserrat', sans-serif; font-size: 17px; fill: #334155; font-weight: 500; }
+      .value-text { font-family: 'Montserrat', sans-serif; font-size: 19px; fill: #0f172a; font-weight: 700; }
+      .line-rule { stroke: #64748b; stroke-width: 1; }
+      .small-label { font-family: 'Montserrat', sans-serif; font-size: 15px; fill: #475569; font-weight: 500; }
+      .cert-no-text { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; fill: #1e293b; }
+      .sign-title { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: 700; fill: #0f172a; text-anchor: middle; }
+      .sign-sub { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #475569; text-anchor: middle; }
+    </style>
+    
+    <!-- Council Arched Text Path -->
+    <path id="councilArch" d="M 120 280 Q 600 60 1080 280" fill="none" />
+  </defs>
+
+  <!-- Background Base -->
+  <rect x="0" y="0" width="1200" height="820" class="bg-parchment" rx="4" />
+
+  <!-- Outer Double Blue Borders -->
+  <rect x="25" y="25" width="1150" height="770" class="border-outer" rx="2" />
+  <rect x="35" y="35" width="1130" height="750" class="border-inner" rx="2" />
+
+  <!-- Top Left: Utkarsh Bangla Logo -->
+  <g transform="translate(65, 55)">
+    <!-- Bengali Header text -->
+    <text x="50" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#1e3a8a" text-anchor="middle">উৎকর্ষ বাংলা</text>
+    
+    <!-- Water Drop Emblem -->
+    <path d="M 50 35 C 32 58 32 80 50 94 C 68 80 68 58 50 35 Z" fill="#0284c7" />
+    <circle cx="50" cy="68" r="8" fill="#ffffff" />
+    <path d="M 50 63 C 47 68 47 73 50 75 C 53 73 53 68 50 63 Z" fill="#0284c7" />
+    
+    <!-- Utkarsh Bangla Bottom Text -->
+    <text x="50" y="112" font-family="'Montserrat', sans-serif" font-size="11" font-weight="700" fill="#1e3a8a" text-anchor="middle" letter-spacing="1">UTKARSH BANGLA</text>
+  </g>
+
+  <!-- Top Right: WBSCTVESD Gear Wheel Official Seal -->
+  <g transform="translate(1020, 55)">
+    <circle cx="55" cy="55" r="48" fill="none" stroke="#1e3a8a" stroke-width="4" />
+    <circle cx="55" cy="55" r="38" fill="#1e3a8a" opacity="0.1" />
+    <circle cx="55" cy="55" r="30" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="4 2" />
+    
+    <!-- Gear Cogs -->
+    <g fill="#1e3a8a">
+      <rect x="52" y="2" width="6" height="8" rx="1" />
+      <rect x="52" y="100" width="6" height="8" rx="1" />
+      <rect x="2" y="52" width="8" height="6" rx="1" />
+      <rect x="100" y="52" width="8" height="6" rx="1" />
+      <rect x="17" y="17" width="8" height="6" rx="1" transform="rotate(45 21 20)" />
+      <rect x="85" y="85" width="8" height="6" rx="1" transform="rotate(45 89 88)" />
+      <rect x="85" y="17" width="8" height="6" rx="1" transform="rotate(-45 89 20)" />
+      <rect x="17" y="85" width="8" height="6" rx="1" transform="rotate(-45 21 88)" />
+    </g>
+
+    <!-- Bengal Map Silhouette / Crest -->
+    <path d="M 50 36 L 56 36 L 62 42 L 58 48 L 64 54 L 60 68 L 52 74 L 46 66 L 48 50 Z" fill="#1e3a8a" />
+  </g>
+
+  <!-- Main Council Arched Banner Header -->
+  <text class="text-council">
+    <textPath href="#councilArch" startOffset="50%" text-anchor="middle">
+      West Bengal State Council of Technical &amp; Vocational Education &amp; Skill Development
+    </textPath>
+  </text>
+
+  <!-- Script "Certificate" Title -->
+  <text x="600" y="278" class="text-cursive">Certificate</text>
+
+  <!-- Certificate Body Fields -->
+  <g transform="translate(60, 325)">
+    <!-- Row 1: This is to certify that -->
+    <text x="0" y="20" class="label-text">This is to certify that</text>
+    <line x1="165" y1="26" x2="1075" y2="26" class="line-rule" />
+    <text x="600" y="20" class="value-text" text-anchor="middle" letter-spacing="1.5">RACHANA BEHERA</text>
+
+    <!-- Row 2: Son/Daughter/Ward of & Roll No -->
+    <text x="0" y="65" class="label-text">Son/Daughter/Ward of</text>
+    <line x1="180" y1="71" x2="520" y2="71" class="line-rule" />
+    <text x="350" y="65" class="value-text" text-anchor="middle">RAJAN BEHERA</text>
+
+    <text x="535" y="65" class="label-text">having Roll No./Reg.No./Enrolment No</text>
+    <line x1="840" y1="71" x2="1075" y2="71" class="line-rule" />
+    <text x="955" y="65" class="value-text" text-anchor="middle" letter-spacing="1">8232007462</text>
+
+    <!-- Row 3: For job role -->
+    <text x="0" y="110" class="label-text">for job role</text>
+    <line x1="100" y1="116" x2="1075" y2="116" class="line-rule" />
+    <text x="580" y="110" class="value-text" text-anchor="middle" letter-spacing="2">DOMESTIC DATA ENTRY OPERATOR</text>
+
+    <!-- Row 4: Duration & NSQF Level -->
+    <text x="0" y="155" class="label-text">of Duration</text>
+    <line x1="100" y1="161" x2="350" y2="161" class="line-rule" />
+    <text x="225" y="155" class="value-text" text-anchor="middle">400 HRS</text>
+
+    <text x="365" y="155" class="label-text">Equivalent to National Skills Qualifications Framework Level</text>
+    <line x1="875" y1="161" x2="1075" y2="161" class="line-rule" />
+    <text x="975" y="155" class="value-text" text-anchor="middle">4</text>
+
+    <!-- Row 5: Training Centre Name -->
+    <text x="0" y="200" class="label-text">Training Centre Name</text>
+    <line x1="190" y1="206" x2="1075" y2="206" class="line-rule" />
+    <text x="630" y="200" class="value-text" text-anchor="middle" letter-spacing="1.5">JADAVPUR VIDYAPITH</text>
+
+    <!-- Row 6: District, State, has successfully cleared assessment -->
+    <text x="0" y="245" class="label-text">District</text>
+    <line x1="68" y1="251" x2="260" y2="251" class="line-rule" />
+    <text x="160" y="245" class="value-text" text-anchor="middle">KOLKATA</text>
+
+    <text x="280" y="245" class="label-text">State</text>
+    <line x1="330" y1="251" x2="495" y2="251" class="line-rule" />
+    <text x="410" y="245" class="value-text" text-anchor="middle">WEST BENGAL</text>
+
+    <text x="510" y="245" class="label-text">has successfully cleared the assessment.</text>
+
+    <!-- Row 7: Place of Issue & Date of Issue -->
+    <text x="0" y="310" class="small-label">Place of Issue:</text>
+    <line x1="120" y1="316" x2="300" y2="316" class="line-rule" />
+    <text x="210" y="310" class="value-text" text-anchor="middle" font-size="16">KOLKATA</text>
+
+    <text x="0" y="355" class="small-label">Date of Issue:</text>
+    <line x1="120" y1="361" x2="300" y2="361" class="line-rule" />
+    <text x="210" y="355" class="value-text" text-anchor="middle" font-size="16">10th May, 2024</text>
+  </g>
+
+  <!-- Bottom Left: QR Code & Certificate No. -->
+  <g transform="translate(68, 705)">
+    <!-- High-res QR Code pattern -->
+    <g fill="#1e293b">
+      <!-- QR Position markers Top-Left -->
+      <rect x="0" y="0" width="55" height="55" fill="none" stroke="#1e293b" stroke-width="5" rx="2" />
+      <rect x="12" y="12" width="31" height="31" />
+      
+      <!-- QR Data modules mock -->
+      <rect x="62" y="0" width="6" height="6" />
+      <rect x="74" y="0" width="6" height="6" />
+      <rect x="62" y="12" width="12" height="6" />
+      <rect x="68" y="24" width="6" height="12" />
+      <rect x="62" y="42" width="18" height="6" />
+      <rect x="0" y="62" width="12" height="6" />
+      <rect x="18" y="62" width="6" height="12" />
+      <rect x="30" y="62" width="12" height="6" />
+      <rect x="48" y="62" width="6" height="6" />
+      <rect x="60" y="62" width="18" height="6" />
+    </g>
+
+    <!-- Certificate Number text below QR code -->
+    <text x="0" y="82" class="cert-no-text">Certificate No. : WB2024/CSSVSE/ITS/X/01854</text>
+  </g>
+
+  <!-- Bottom Right: Chairperson Signature & Authority Line -->
+  <g transform="translate(850, 715)">
+    <!-- Signature Flourish Line / Path -->
+    <path d="M 40 18 Q 65 -15 80 15 Q 95 -10 115 10 Q 140 -5 180 8 Q 110 22 70 8" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="0" y1="28" x2="280" y2="28" class="line-rule" />
+    
+    <text x="140" y="52" class="sign-title">Chairperson</text>
+    <text x="140" y="70" class="sign-sub">WBSCTVESD</text>
+  </g>
+</svg>
